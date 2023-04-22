@@ -10,6 +10,62 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family:serif}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #right {  
+  width: 200px;  
+  height: 200px;  
+  object-fit: contain;  
+  
+  object-position: center;  
+  margin-top: 50%;  
+  }  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #right {  
+  width: 400px;  
+  height: 400px;  
+  object-fit: contain;  
+  
+  object-position: right top; 
+  }  
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #right {  
+  width: 400px;  
+  height: 400px;  
+  object-fit: contain;  
+  
+  object-position: right top;  
+  }  
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #right {  
+  width: 400px;  
+  height: 400px;  
+  object-fit: contain;  
+  
+  object-position: right top;  
+  }  
+} 
+
+@media only screen and (min-width: 1200px) {
+  #right {  
+  width: 400px;  
+  height: 400px;  
+  object-fit: contain;  
+  
+  object-position: right top;  
+  }  
+}
  
 #center {  
   width: 400px;  
@@ -25,13 +81,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family:serif}
   object-fit: contain;  
   object-position: center;  
   }  
-  #right {  
-  width: 400px;  
-  height: 400px;  
-  object-fit: contain;  
-  
-  object-position: right top;  
-  }  
+   
 
   .pic {
   float: right;
@@ -72,7 +122,7 @@ li{
 </div>
 
 <!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:100%;">
+<div class="w3-content w3-margin-top" style="max-width:1200px;">
 
   <!-- The Grid -->
   
@@ -109,7 +159,7 @@ li{
 		<div class="w3-container w3-card w3-white w3-margin-bottom " style="margin-top: 100px ;" >
 			<h2 class="w3-text-navy-blazer titlepadding" > <b> Who Am I?</b></h2>
 			<div class="w3-container" >
-        <div class="w3-container" style="float:left; width: 60%;margin-left:40px ;">
+        <div class="w3-container" style="float:left; width: 70%;margin-left:40px ;">
 			    <h5 class="w3-text-navy-blazer" >I'm a Ph.D. student working with Professor Westley Weimer at the University of Michigan. 
           My research interest are in software engineering and human studies of programming. My current work investigates the cognitive processes associated with debugging and 
           and comprehending programs at the pedagogical level. I am interested in learning more about how programmers of various backgrounds code.
